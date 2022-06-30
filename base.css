@@ -9,12 +9,13 @@
 
 body {
    background-image: url(image/ryan-concepcion-50KffXbjIOg-unsplash.jpg);
+   min-width: 1200px;
 }   
 
 
 .container {
     margin: 0 auto;
-    max-width: 1600px;
+
 }
 
 .IMG, .prices {
@@ -80,70 +81,3 @@ body {
     border: 3px solid rgba(238, 207, 68, 0.425);
 }
 
-
-@media screen and (max-width: 300px) {
-    .container {
-        width: 100%;
-    }
-
-    .imga {
-        width: 30%;
-    }
-
-    .price {
-        width: 30%;
-        font-size: 20px;
-        padding: 25px;
-    }
-}
-
-
-
-@media screen and (max-width: 400px) {
-    .container {
-        width: 100%;
-    }
-
-    .imga {
-        width: 30%;
-    }
-
-    .price {
-        width: 30%;
-        font-size: 20px;
-        padding: 25px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
-    }
-
-    .imga {
-        width: 30%;
-    }
-
-    .price {
-        width: 30%;
-        font-size: 20px;
-        padding: 25px;
-    }
-}
-
-
-@media screen and (max-width: 800px) {
-    .container {
-        width: 100%;
-    }
-
-    .imga {
-        width: 30%;
-    }
-
-    .price {
-        width: 30%;
-        font-size: 20px;
-        padding: 25px;
-    }
-}
