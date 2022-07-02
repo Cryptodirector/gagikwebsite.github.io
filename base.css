@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   background-image: url(image/ryan-concepcion-50KffXbjIOg-unsplash.jpg);
+   max-width: 1400px;
+   background-repeat: no-repeat;
+
+}   
+
+
+.container {
+    margin: 0 auto;
+
+}
+
+.IMG, .prices {
+    margin: 0 auto;
+    
+}
+
+.header {
+    width: calc(1400px + 40px);
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+.IMG {
+    width: 1300px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 100px;
+
+}
+
+.imga {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgba(240, 248, 255, 0.589);
+    display: inline-block;
+    margin-left: 105px;
+}
+
+.prices {
+    width: 1300px;
+    height: 100px;
+    border-radius: 15px;
+    display: inline-block;
+
+
+}
+
+.price {
+    width: 500px;
+    height: 95px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgba(129, 128, 120, 0.801);
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+    padding: 20px;
+    margin-left: 105px;
+    text-align: center;
+}
+
+.numbers {
+    width: 550px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 435px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.596);
+    font-family: 'Russo One', sans-serif;
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* .imga img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 3px solid rgba(238, 207, 68, 0.425);
+} */
+
+
+
+
